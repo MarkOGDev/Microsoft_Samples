@@ -6,8 +6,8 @@
 
 | Project  |  Azure DevOps            |
 | :--------:    |   :-----:           |
-| [Azure.Functions.HttpTrigger.Demo](HttpTrigger.Demo/readme.md)        |     [![Build Status](https://markogdev.visualstudio.com/Microsoft.Samples/_apis/build/status/Azure.Functions.HttpTrigger.Demo)](https://markogdev.visualstudio.com/Microsoft.Samples/_build/latest?definitionId=3)         | 
-| [Azure.Functions.TableBindings.Demo](TableBindings.Demo/readme.md)        |     [![Build Status](https://markogdev.visualstudio.com/Microsoft.Samples/_apis/build/status/Azure.Functions.TableBindings.Demo)](https://markogdev.visualstudio.com/Microsoft.Samples/_build/latest?definitionId=4)     | 
+| [HttpTrigger.Demo](HttpTrigger.Demo/readme.md)        |     [![Build Status](https://dev.azure.com/markogdev/Microsoft_Samples/_apis/build/status/Azure.Functions.TableBindings.Demo)](https://dev.azure.com/markogdev/Microsoft_Samples/_build/latest?definitionId=4)        | 
+| [TableBindings.Demo](TableBindings.Demo/readme.md)        |     [![Build Status](https://dev.azure.com/markogdev/Microsoft_Samples/_apis/build/status/Azure.Functions.TableBindings.Demo)](https://dev.azure.com/markogdev/Microsoft_Samples/_build/latest?definitionId=4)    | 
 
  
 ## Development Tools
