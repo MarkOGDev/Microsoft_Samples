@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>MarkOGDev.Microsoft_Samples.WebHost_Sample.WebApplication</RootNamespace>
+    <AssemblyName>MarkOGDev.Microsoft_Samples.WebHost_Sample.WebApplication</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\**" />
+    <Compile Remove="Types\**" />
+    <Content Remove="Services\**" />
+    <Content Remove="Types\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Types\**" />
+    <None Remove="Services\**" />
+    <None Remove="Types\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Services\OperationService.cs" />
+    <Compile Include="Types\Operation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Shared\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

@@ -7,7 +7,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace MarkOGDev.Microsoft.Samples.Azure.Functions.HttpTrigger.Demo
+namespace MarkOGDev.Microsoft_Samples.Azure_Functions.HttpTrigger.Demo
 {
     /// <summary>
     /// A Class Library containing Azure Functions

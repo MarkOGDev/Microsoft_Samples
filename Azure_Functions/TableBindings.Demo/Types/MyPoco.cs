@@ -7,7 +7,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.WindowsAzure.Storage.Table;
 
-namespace MarkOGDev.Microsoft.Samples.Azure.Functions.TableBindings.Demo.Types
+namespace MarkOGDev.Microsoft_Samples.Azure_Functions.TableBindings.Demo.Types
 {
     /// <summary>
     /// Example Class representing a table row.

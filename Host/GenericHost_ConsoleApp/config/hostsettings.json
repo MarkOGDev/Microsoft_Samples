@@ -1,0 +1,4 @@
+{
+  //Specify that this app is running in the Dev Environment
+  "environment": "Development"
+}

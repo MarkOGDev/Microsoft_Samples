@@ -1,21 +1,29 @@
-# Microsoft Samples 
+# Microsoft_Samples 
 
 *Created by MarkOGDev*
-
 
  
 ## C# Azure Functions
 
 Azure Functions is a serverless compute service. 
 
-See: [Function Samples Introduction](Azure.Functions/readmeFunctionsIntro.md)
+See: [Function Samples Introduction](Azure_Functions/readme.md)
  
+
+## C# Host
+
+The host is responsible for app startup and lifetime management.
+
+See: [Host Samples Introduction](Host/readme.md)
+
+
  
 ## Blazor
  
  Blazor is an experimental .NET web framework using C# and HTML that runs in the browser.
 
  More Coming Soon.....
+
 
 
 ## Service Fabric

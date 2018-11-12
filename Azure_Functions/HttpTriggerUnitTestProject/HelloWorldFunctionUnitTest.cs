@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using MarkOGDev.Microsoft.Samples.Azure.Functions.HttpTrigger.Demo;
+using MarkOGDev.Microsoft_Samples.Azure_Functions.HttpTrigger.Demo;
 
 namespace Azure.Functions.UnitTestProject
 {
@@ -11,7 +11,7 @@ namespace Azure.Functions.UnitTestProject
     public class HelloWorld3FunctionUnitTest
     {
         /// <summary>
-        /// Tests the output of the function. We could crete a Integration Test that executes the url.
+        /// Tests the output of the function. We could create a Integration Test that executes the url.
         /// </summary>
         [TestMethod]
         public void HelloWorld3Test()

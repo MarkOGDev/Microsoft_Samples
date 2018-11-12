@@ -2,8 +2,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
-    <RootNamespace>MarkOGDev.Microsoft.Samples.Azure.Functions.HttpTrigger.Demo</RootNamespace>
-    <AssemblyName>MarkOGDev.Microsoft.Samples.Azure.Functions.HttpTrigger.Demo</AssemblyName>
+    <RootNamespace>MarkOGDev.Microsoft_Samples.Azure_Functions.HttpTrigger.Demo</RootNamespace>
+    <AssemblyName>MarkOGDev.Microsoft_Samples.Azure_Functions.HttpTrigger.Demo</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="TableBindings.cs" />

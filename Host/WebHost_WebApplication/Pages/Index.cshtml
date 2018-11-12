@@ -1,0 +1,70 @@
+﻿@page
+@model WebHost_Sample.WebApplication.Pages.IndexModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>WebHost_Sample.WebApplication Dependency Injection of Services Sample</h1>
+    <p>This is a Razor Page. Press Reload to see how the Service's IDs are affected.</p>
+    <p>If the ID changes then the service was re-created.</p>
+    <p>See <a target="_blank" href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#service-lifetimes">Service lifetimes</a></p>
+
+
+
+    <p>@Model.ViewModel.Message</p>
+
+    <p>
+        <strong>Operation Service</strong>
+        TransientOperation: @Model.ViewModel.OperationService.TransientOperation.OperationId;
+        <br />
+        ScopedOperation: @Model.ViewModel.OperationService.ScopedOperation.OperationId;
+        <br />
+        SingletonOperation: @Model.ViewModel.OperationService.SingletonOperation.OperationId;
+        <br />
+        SingletonInstanceOperation: @Model.ViewModel.OperationService.SingletonInstanceOperation.OperationId;
+    </p>
+
+    <p>
+        <strong>Individual Operations</strong>
+        TransientOperation: @Model.ViewModel.TransientOperation.OperationId;
+        <br />
+        ScopedOperation: @Model.ViewModel.ScopedOperation.OperationId;
+        <br />
+        SingletonOperation: @Model.ViewModel.SingletonOperation.OperationId;
+        <br />
+        SingletonInstanceOperation: @Model.ViewModel.SingletonInstanceOperation.OperationId;
+    </p>
+
+    <br /> 
+    <p>
+        <strong>
+            Transient
+        </strong>
+        <br />
+        Transient lifetime services are created each time they're requested. This lifetime works best for lightweight, stateless services.
+        <br /><br />
+        <strong>
+            Scoped
+        </strong>
+        <br />
+        Scoped lifetime services are created once per request.
+        <br /><br />
+        <strong>
+            Singleton
+        </strong>
+        <br />
+        Singleton lifetime services are created the first time they're requested (or when ConfigureServices is run and an instance is specified with the service registration). Every subsequent request uses the same instance. If the app requires singleton behavior, allowing the service container to manage the service's lifetime is recommended. Don't implement the singleton design pattern and provide user code to manage the object's lifetime in the class.
+
+    </p>
+
+    
+</body>
+</html>

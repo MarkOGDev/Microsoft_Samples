@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>MarkOGDev.Microsoft.Samples.Azure.Functions.UnitTestProject</RootNamespace>
+    <RootNamespace>MarkOGDev.Microsoft_Samples.Azure_Functions.UnitTestProject</RootNamespace>
 
-    <AssemblyName>MarkOGDev.Microsoft.Samples.Azure.Functions.UnitTestProject</AssemblyName>
+    <AssemblyName>MarkOGDev.Microsoft_Samples.Azure_Functions.UnitTestProject</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HttpTrigger.Demo\Azure.Functions.HttpTrigger.Demo.csproj" />
-    <ProjectReference Include="..\TableBindings.Demo\Azure.Functions.TableBindings.Demo.csproj" />
+    <ProjectReference Include="..\HttpTrigger.Demo\HttpTrigger.Demo.csproj" />
+    <ProjectReference Include="..\TableBindings.Demo\TableBindings.Demo.csproj" />
   </ItemGroup>
 
 </Project>

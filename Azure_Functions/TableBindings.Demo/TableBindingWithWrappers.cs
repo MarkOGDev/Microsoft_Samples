@@ -1,6 +1,6 @@
 
 using Azure.Data.Wrappers;
-using MarkOGDev.Microsoft.Samples.Azure.Functions.TableBindings.Demo.Types;
+using MarkOGDev.Microsoft_Samples.Azure_Functions.TableBindings.Demo.Types;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
 
-namespace MarkOGDev.Microsoft.Samples.Azure.Functions.TableBindings.Demo
+namespace MarkOGDev.Microsoft_Samples.Azure_Functions.TableBindings.Demo
 {
     /// <summary>
     /// Examples of Azure Table Binding With Azure.Data.Wrappers.
