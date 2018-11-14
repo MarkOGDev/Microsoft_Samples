@@ -1,6 +1,6 @@
 ﻿# C# Azure Functions V2 - Azure Table Binding Example
 
-[Back to Azure Functions Introduction](../readmeFunctionsIntro.md)
+[Back to Azure Functions Introduction](../readme.md)
 
 This example code shows you how to make **Azure Functions V2** with both **HTTP Trigger** and **Azure Table Binding**.
 

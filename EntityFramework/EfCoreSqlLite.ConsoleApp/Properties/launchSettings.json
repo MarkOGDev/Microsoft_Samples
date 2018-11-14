@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EfCoreSqlLite.ConsoleApp": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\SkyDrive\\work\\sites\\i_do_it\\ExampleCode\\Microsoft_Samples\\EntityFramework\\EfCoreSqlLite.ConsoleApp"
+    }
+  }
+}

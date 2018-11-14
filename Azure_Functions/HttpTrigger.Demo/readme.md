@@ -1,6 +1,6 @@
 ﻿# C# Azure Functions V2 - HTTP Trigger Example
 
-[Back to Azure Functions Introduction](../readmeFunctionsIntro.md)
+[Back to Azure Functions Introduction](../readme.md)
 
 This following code shows examples of **Azure Functions V2** with an **HTTP Trigger**.
 

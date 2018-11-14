@@ -22,7 +22,7 @@ Scoped lifetime services are created once per request.
 Singleton lifetime services are created the first time they're requested (or when ConfigureServices is run and an instance is specified with the service registration). Every subsequent request uses the same instance. If the app requires singleton behavior, allowing the service container to manage the service's lifetime is recommended. Don't implement the singleton design pattern and provide user code to manage the object's lifetime in the class. 
      
 
- ### Reference aspnetcore-2.1
+ ### Reference 
 
 [Dependency injection in ASP.NET Core Service Lifetimes](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1#service-lifetimes)
 

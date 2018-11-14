@@ -1,4 +1,4 @@
-﻿# Generic Host, Logging
+﻿# Generic Host, Logging, DI of Service
 
 [Back to Host in ASP.NET Core](../readme.md)
 

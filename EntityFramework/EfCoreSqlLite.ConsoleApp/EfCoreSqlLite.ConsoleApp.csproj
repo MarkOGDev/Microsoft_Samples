@@ -3,7 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>MarkOGDev.Microsoft.Samples.EfCore.SqlLite.ConsoleApp</RootNamespace>
+    <RootNamespace>MarkOGDev.Microsoft_Samples.EfCoreSqlLite.ConsoleApp</RootNamespace>
+    <AssemblyName>MarkOGDev.Microsoft_Samples.EfCoreSqlLite.ConsoleApp</AssemblyName>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +17,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>

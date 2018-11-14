@@ -7,16 +7,18 @@
 
 Azure Functions is a serverless compute service. 
 
-See: [Function Samples Introduction](Azure_Functions/readme.md)
+[Function Samples Introduction](Azure_Functions/readme.md)
  
 
 ## C# Host
 
 The host is responsible for app startup and lifetime management.
 
-See: [Host Samples Introduction](Host/readme.md)
+[Host Samples Introduction](Host/readme.md)
 
+## Entity Framework Core 
 
+[Ef Core Sample](EntityFramework/EfCoreSqlLite.ConsoleApp/readme.md)
  
 ## Blazor
  
@@ -33,7 +35,13 @@ See: [Host Samples Introduction](Host/readme.md)
  More Coming Soon.....
  
 
+## .NET Core in a Windows Service
 
+Microsoft Docs: [Host ASP.NET Core in a Windows Service](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/windows-service)
+
+## Modern Architecture
+
+Microsoft Docs: [Architect Modern Web Applications with ASP.NET Core and Azure](https://docs.microsoft.com/en-gb/dotnet/standard/modern-web-apps-azure-architecture/)
 
 ## Azure DevOps Automation 
 
