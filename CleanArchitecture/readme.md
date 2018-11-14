@@ -1,11 +1,12 @@
 # Clean Architecture
   
+[Back to Microsoft_Samples Home](../readme.md)
+
 #### Clean Architecture Layers
 
  How to structure the project to make it easy to scale, maintain and test.
 
-
- 
+  
 * [**GitHub sample Proj - eShopOnWeb/src/**](https://github.com/dotnet-architecture/eShopOnWeb/tree/master/src) 
 
 * [Clean Architecture (Small HTML version of PDF)](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)

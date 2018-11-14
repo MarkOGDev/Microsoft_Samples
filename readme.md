@@ -20,6 +20,13 @@ The host is responsible for app startup and lifetime management.
 
 [Ef Core Sample](EntityFramework/EfCoreSqlLite.ConsoleApp/readme.md)
  
+
+## Clean Architecture
+
+[Clean Architecture Introduction](CleanArchitecture/readme.md)
+
+
+
 ## Blazor
  
  Blazor is an experimental .NET web framework using C# and HTML that runs in the browser.
@@ -39,9 +46,6 @@ The host is responsible for app startup and lifetime management.
 
 Microsoft Docs: [Host ASP.NET Core in a Windows Service](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/windows-service)
 
-## Modern Architecture
-
-Microsoft Docs: [Architect Modern Web Applications with ASP.NET Core and Azure](https://docs.microsoft.com/en-gb/dotnet/standard/modern-web-apps-azure-architecture/)
 
 ## Azure DevOps Automation 
 
