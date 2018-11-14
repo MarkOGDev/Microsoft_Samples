@@ -262,7 +262,7 @@ __pycache__/
 
 # Custom Ignore Routes
 blazor/
-CleanArchitecture/
-CleanArchitecture1/
-
+CleanArchitecture/src
+CleanArchitecture/tests
+ 
 readmeDeveloper.md

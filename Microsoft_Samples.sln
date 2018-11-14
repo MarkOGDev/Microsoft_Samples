@@ -61,6 +61,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject", "Azure_Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreSqlLite.ConsoleApp", "EntityFramework\EfCoreSqlLite.ConsoleApp\EfCoreSqlLite.ConsoleApp.csproj", "{B5077C59-90F5-471E-B16E-FF3FB0585776}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture", "CleanArchitecture", "{3403A2A0-3E96-4029-863D-50632A6E4629}"
+	ProjectSection(SolutionItems) = preProject
+		CleanArchitecture\AppLayers.png = CleanArchitecture\AppLayers.png
+		CleanArchitecture\CleanArchitectureDetailed.png = CleanArchitecture\CleanArchitectureDetailed.png
+		CleanArchitecture\CleanArchitectureLayers.png = CleanArchitecture\CleanArchitectureLayers.png
+		CleanArchitecture\CleanArchitectureLayersHorizontal.png = CleanArchitecture\CleanArchitectureLayersHorizontal.png
+		CleanArchitecture\readme.md = CleanArchitecture\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
